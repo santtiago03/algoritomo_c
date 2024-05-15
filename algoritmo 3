@@ -10,7 +10,7 @@ int main () {
 	printf ("Informe a altura do retangulo :");
 	scanf ("%f", &altura);
 	
-	float area = base*altura/2 ;
+	float area = base*altura ;
 	
 	printf("A area do triangulo e:%f",area,"m²");
 return 0;
