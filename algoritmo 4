@@ -1,0 +1,17 @@
+#include  <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	float y;
+	float x; 
+	
+	printf ("Informe o primeiro numero :");
+	scanf ("%f", &x);
+	printf ("Informe o segundo nuemero :");
+	scanf ("%f", &y);
+	
+	float subtrcao = x-y ;
+	
+	printf("A diferenca dos numeros e :%f",subtracao);
+return 0;
+} 
