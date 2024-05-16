@@ -1,0 +1,14 @@
+#include  <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	float peso; 
+
+	printf ("Informe seu peso :");
+	scanf ("%f", &peso);
+	float gramas = 1000;
+    float pesogramas = peso*gramas;
+
+	printf("O peso informado e converido em gramas e : %f", pesogramas);
+return 0;
+}  
