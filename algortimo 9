@@ -1,0 +1,20 @@
+#include  <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	float raio; 
+
+	printf ("Informe  o raio de uma circuferencia :");
+	scanf ("%f", &raio);
+	
+	float diametro = raio*raio;
+	float comprimento = 2*3.14*raio;
+	float area = 3.14*(raio*raio);
+
+	printf("\n O diamnetro do circulo e : %f", diametro);
+   printf ("\n A area do circulo e :%f", area);
+    printf("\n O comprimento do circulo do circulo : %f", comprimento);
+
+return 0;
+} 
