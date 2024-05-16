@@ -10,7 +10,7 @@ int main () {
 	printf ("Informe o segundo nuemero :");
 	scanf ("%f", &y);
 	
-	float subtrcao = x-y ;
+	float subtracao = x-y ;
 	
 	printf("A diferenca dos numeros e :%f",subtracao);
 return 0;
