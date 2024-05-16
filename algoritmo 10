@@ -1,0 +1,21 @@
+#include  <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	float x; 
+    float y;
+	printf ("Informe  um numero para variavel x :");
+	scanf ("%f", &x);
+	printf ("Informe um numero para variavel y :");
+	scanf("%f",&y);
+	
+	float x1 = y;
+	float y1 = x;
+	
+	printf("\nO valor antigo da variavel X e : %f",x);
+	printf("\nO valor novo da variavel X e :%f",x1);
+	printf("\nO valor antigo da variavel Y e :%f",y);
+    printf("\nO avlor novo da variavel Y e :%f",y1);
+
+return 0;
